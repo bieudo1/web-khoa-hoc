@@ -10681,14 +10681,14 @@ section.resume-section .button.expanded {
   background-repeat: no-repeat;
   background-size: 99% 100%;
   width: 100%;
-  height: 652px;
+  height: 734px;
 }
 .background-training {
   background: url("../assets/img/Xanh.png");
   background-repeat: no-repeat;
   background-size: 99% 100%;
   width: 100%;
-  height: 652px;
+  height: 734px;
 }
 .course {
   padding: 0;
@@ -10696,8 +10696,8 @@ section.resume-section .button.expanded {
 }
 .box-content {
   position: absolute;
-  top: 88px;
-  left: 39px;
+  top: 94px;
+  left: 9%;
   padding: 0 25px;
 }
 .course-title {
