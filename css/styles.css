@@ -10849,6 +10849,10 @@ section.resume-section .button.expanded {
 }
 .text-clock {
   text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .duration-text {
   margin: 0;
@@ -10871,11 +10875,15 @@ section.resume-section .button.expanded {
   }
   .background-training,
   .background-content {
-    height: 534px;
+    height: 632px;
   }
 }
 
 @media (max-width: 768px) {
+  h1,
+  .h1 {
+    font-size: 2em;
+  }
   .textbook-title {
     font-size: 2em;
   }
@@ -10897,13 +10905,13 @@ section.resume-section .button.expanded {
   .duration-text {
     font-size: 1.5em;
   }
+  .background-training,
+  .background-content {
+    height: 538px;
+  }
 }
 @media (max-width: 576px) {
   .textbook-title {
     font-size: 1em;
-  }
-  h1,
-  .h1 {
-    font-size: 2em;
   }
 }
