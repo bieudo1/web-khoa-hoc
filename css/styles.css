@@ -117,6 +117,7 @@ p {
   margin-top: 0;
   margin-bottom: 1rem;
   font-size: 1.25em;
+  text-align: justify;
 }
 
 abbr[title],
@@ -4377,7 +4378,10 @@ input[type="button"].btn-block {
   flex-grow: 1;
   align-items: center;
 }
-
+.logo-mobile {
+  width: 6%;
+  display: block;
+}
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
@@ -4516,6 +4520,9 @@ input[type="button"].btn-block {
   }
 }
 @media (min-width: 992px) {
+  .logo-mobile {
+    display: none;
+  }
   .navbar-expand-lg {
     flex-flow: row nowrap;
     justify-content: flex-start;
@@ -10663,6 +10670,10 @@ section.resume-section .button.expanded {
 .bulkhead {
   border: none;
 }
+.stick-blue {
+  width: 20px;
+  height: 20px;
+}
 @media (min-width: 768px) {
   .bulkhead {
     border-right: 4px solid rgba(0, 63, 111, 255);
@@ -10681,14 +10692,14 @@ section.resume-section .button.expanded {
   background-repeat: no-repeat;
   background-size: 99% 100%;
   width: 100%;
-  height: 734px;
+  height: 838px;
 }
 .background-training {
   background: url("../assets/img/Xanh.png");
   background-repeat: no-repeat;
   background-size: 99% 100%;
   width: 100%;
-  height: 734px;
+  height: 838px;
 }
 .course {
   padding: 0;
@@ -10696,19 +10707,19 @@ section.resume-section .button.expanded {
 }
 .box-content {
   position: absolute;
-  top: 94px;
+  top: 16%;
   left: 9%;
   padding: 0 25px;
 }
 .course-title {
   font-weight: bold;
   border-bottom: 1px solid #0d0d0d;
-  font-size: 20px;
+  font-size: 1.5em;
   text-align: center;
   padding: 16px 42px;
 }
 .course-content {
-  font-size: 18px;
+  font-size: 1.25em;
   padding: 0 16px;
 }
 .curriculum-1 {
@@ -10773,20 +10784,27 @@ section.resume-section .button.expanded {
 }
 .clock {
   background-color: #94c7eb;
+  padding: 10px;
+}
+.box-clock {
   display: flex;
-  align-items: center;
   justify-content: space-around;
 }
-
 .duration {
   font-size: 3em;
   color: #fff;
   font-weight: bold;
+  text-align: center;
+  padding: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .number {
   font-size: 5em;
   color: #fff;
   font-weight: bold;
+  margin: 0;
 }
 .text-description {
   color: #002453;
@@ -10829,6 +10847,9 @@ section.resume-section .button.expanded {
   justify-content: space-between;
   padding-bottom: 1em;
 }
+.text-clock {
+  text-align: center;
+}
 .duration-text {
   margin: 0;
   font-size: 2em;
@@ -10838,13 +10859,47 @@ section.resume-section .button.expanded {
 .nav-logo {
   width: 5%;
 }
-@media (max-width: 576px) {
-  .textbook-title {
+@media (max-width: 1200px) {
+  p {
     font-size: 1em;
   }
+  .course-content {
+    font-size: 0.75em;
+  }
+  .course-title {
+    font-size: 1em;
+  }
+  .background-training,
+  .background-content {
+    height: 534px;
+  }
 }
+
 @media (max-width: 768px) {
   .textbook-title {
     font-size: 2em;
+  }
+  .clock {
+    padding: 10px;
+  }
+  .course-title {
+    font-size: 0.8em;
+  }
+  .course-content {
+    font-size: 0.6em;
+  }
+  .number {
+    font-size: 3em;
+  }
+  .duration {
+    font-size: 2em;
+  }
+  .duration-text {
+    font-size: 1.5em;
+  }
+}
+@media (max-width: 576px) {
+  .textbook-title {
+    font-size: 1em;
   }
 }
