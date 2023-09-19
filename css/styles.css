@@ -10490,7 +10490,7 @@ h6 {
 }
 
 h1 {
-  line-height: 1;
+  line-height: 1.5;
 }
 
 p.lead {
@@ -10847,7 +10847,7 @@ section.resume-section .button.expanded {
 .image-story {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: initial;
   padding-bottom: 1em;
 }
 .text-clock {
@@ -10933,9 +10933,14 @@ section.resume-section .button.expanded {
     left: 108%;
     top: 0;
   }
+  .box-video {
+    position: absolute;
+    top: 32%;
+    left: 20%;
+  }
 }
 .box-video {
   position: absolute;
-  top: 32%;
-  left: 20%;
+  top: 12%;
+  left: 26%;
 }
