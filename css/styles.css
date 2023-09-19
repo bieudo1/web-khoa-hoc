@@ -10591,7 +10591,7 @@ section.resume-section {
   align-items: center;
   padding-left: 1rem;
   padding-right: 1rem;
-  padding-top: 6rem;
+  padding-top: 2rem;
   padding-bottom: 5rem;
   max-width: 100%;
 }
@@ -10901,5 +10901,9 @@ section.resume-section .button.expanded {
 @media (max-width: 576px) {
   .textbook-title {
     font-size: 1em;
+  }
+  h1,
+  .h1 {
+    font-size: 2em;
   }
 }
