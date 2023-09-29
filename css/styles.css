@@ -10885,6 +10885,15 @@ section.resume-section .button.expanded {
   text-decoration: none;
   color: #002453;
 }
+.slow-loading {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+.slow-loading.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
 @media (max-width: 1200px) {
   p {
     font-size: 1em;

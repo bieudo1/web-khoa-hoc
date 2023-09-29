@@ -9,7 +9,6 @@ function closeModalFunction() {
 }
 element.addEventListener("click", closeModalFunction);
 document.addEventListener("keydown", function (event) {
-  console.log(event.key);
   if (event.key === "Escape" && !element.classList.contains("popup")) {
     closeModalFunction();
   }
