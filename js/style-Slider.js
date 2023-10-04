@@ -67,7 +67,7 @@ function slider() {
   endpos = -(box_width * Number(endposConstant));
   console.log(endposConstant);
   // Tự động chạy slider
-  // var idSet = setInterval("next()", 5000);
+  var idSet = setInterval("next()", 5000);
 
   // next_slide , prev_slide
   var next_slide = document.getElementById("next-slide");
@@ -75,13 +75,13 @@ function slider() {
 
   next_slide.onclick = function () {
     next();
-    // clearInterval(idSet);
-    // idSet = setInterval("next()", 5000);
+    clearInterval(idSet);
+    idSet = setInterval("next()", 5000);
   };
   prev_slide.onclick = function () {
     previous();
-    // clearInterval(idSet);
-    // idSet = setInterval("next()", 5000);
+    clearInterval(idSet);
+    idSet = setInterval("next()", 5000);
   };
 }
 window.onload = function () {
