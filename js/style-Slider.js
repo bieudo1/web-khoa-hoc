@@ -65,7 +65,6 @@ function slider() {
   slider.style.width = box_width * box_quantity + "px";
   move = 0;
   endpos = -(box_width * Number(endposConstant));
-  console.log(endposConstant);
   // Tự động chạy slider
   var idSet = setInterval("next()", 5000);
 

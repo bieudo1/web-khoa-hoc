@@ -13,39 +13,51 @@ document.addEventListener("keydown", function (event) {
     closeModalFunction();
   }
 });
+function video1() {
+  openModalFunction();
+  document.getElementById(
+    "feedback"
+  ).innerHTML = `<iframe src="https://drive.google.com/file/d/1HVTUWDtSIsAxuatjtk6uaZ3Y7Zuc-HZJ/preview" width="640" height="480" allow="autoplay"></iframe>`;
+}
 function video2() {
   openModalFunction();
   document.getElementById(
     "feedback"
-  ).innerHTML = `<iframe src="https://drive.google.com/file/d/1ilH5Uk0BkYBW-eLJXjA6m1c51sp9OvHN/preview" width="640" height="480" allow="autoplay"></iframe>`;
+  ).innerHTML = `<iframe src="https://drive.google.com/file/d/1w7lFpsKkJzng63Q_Ih3QGRJHHmkoYxUH/preview" width="640" height="480" allow="autoplay"></iframe>`;
 }
 function video3() {
   openModalFunction();
   document.getElementById(
     "feedback"
-  ).innerHTML = `<iframe class="video" src="https://drive.google.com/file/d/1cT2i6NcjAie6QCy_fvvwsw6cLHz7TqDd/preview" width="640" height="480" allow="autoplay"></iframe>`;
+  ).innerHTML = `<iframe src="https://drive.google.com/file/d/1KmHjL5K54pYDVrb42MlodKSXGcn_n2Ln/preview" width="640" height="480" allow="autoplay"></iframe>`;
 }
 function video4() {
   openModalFunction();
   document.getElementById(
     "feedback"
-  ).innerHTML = `<iframe class="video" src="https://drive.google.com/file/d/11uG4UiV70FiQiM7kmBlRyIaopBJk-Z5j/preview" width="640" height="480" allow="autoplay"></iframe>`;
+  ).innerHTML = `<iframe src="https://drive.google.com/file/d/1LxHqcDUHDnvqo9_k4HNc25HeTRjQvhMy/preview" width="640" height="480" allow="autoplay"></iframe>`;
+}
+function video5() {
+  openModalFunction();
+  document.getElementById(
+    "feedback"
+  ).innerHTML = `<iframe src="https://drive.google.com/file/d/1F3AKcncC6gl4FB7lfjNSy16bweXmg6VV/preview" width="640" height="480" allow="autoplay"></iframe>`;
 }
 function video6() {
   openModalFunction();
   document.getElementById(
     "feedback"
-  ).innerHTML = `<iframe class="video" src="https://drive.google.com/file/d/1__wCVwBGeNeya26_Bqsb-yq8Uc5jfbaM/preview" width="640" height="480" allow="autoplay"></iframe>`;
+  ).innerHTML = `<iframe src="https://drive.google.com/file/d/1FBRgxRJFB2vX5yTZnKmHtPZthQ-vUUK3/preview" width="640" height="480" allow="autoplay"></iframe>`;
 }
 function video7() {
   openModalFunction();
   document.getElementById(
     "feedback"
-  ).innerHTML = `<iframe src="https://drive.google.com/file/d/1avexx3rFYpRXLe3hncid8Bbu6LBO4_lK/preview" width="640" height="480" allow="autoplay"></iframe>`;
+  ).innerHTML = `<iframe src="https://drive.google.com/file/d/1y6zjtNO2ItjmIZC8s4b20OvvEVgwtOG2/preview" width="640" height="480" allow="autoplay"></iframe>`;
 }
-function video9() {
+function video8() {
   openModalFunction();
   document.getElementById(
     "feedback"
-  ).innerHTML = `<iframe class="video" src="https://drive.google.com/file/d/1q7uU7lGmhiHswLBjxZs8AT1FmlKpnW6S/preview" width="640" height="480" allow="autoplay"></iframe>`;
+  ).innerHTML = `<iframe src="https://drive.google.com/file/d/1Kwln6iOuih5zpy3m3OhoMmCTFExmDvzc/preview" width="640" height="480" allow="autoplay"></iframe>`;
 }
