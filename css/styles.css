@@ -2145,6 +2145,9 @@ pre code {
   .table-responsive-lg > .table-bordered {
     border: 0;
   }
+  .nav-logo {
+    display: none;
+  }
 }
 @media (max-width: 1199.98px) {
   .table-responsive-xl {
@@ -10610,9 +10613,7 @@ section.resume-section {
   padding-bottom: 5rem;
   max-width: 100%;
 }
-section.resume-section .resume-section-content {
-  width: 100%;
-}
+
 section.resume-section .button {
   border-radius: 4px;
   font-family: gotham;
@@ -10869,10 +10870,10 @@ section.resume-section .button.expanded {
 }
 .text-clock {
   text-align: center;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: 0 10px;
 }
 .duration-text {
   margin: 0;
@@ -10972,16 +10973,32 @@ section.resume-section .button.expanded {
   background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, #94c7eb 100%);
 }
 .introductory-video {
-  text-align: center;
+  position: relative;
+  width: 100%;
+  margin: auto;
+  vertical-align: top;
+  max-width: 560px;
+  max-height: 400px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  &:before {
+    content: "";
+    display: block;
+  }
+}
+.inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.ratio16-9:before {
+  padding-top: 56.25%;
 }
 .hide-show {
   display: none;
 }
 
-.text-clip {
-  font-size: 2em;
-  text-align: left;
-}
 @media (max-width: 1200px) {
   p {
     font-size: 1em;
@@ -11045,7 +11062,7 @@ section.resume-section .button.expanded {
     display: block;
   }
   .information-header {
-    flex-direction: column-reverse
+    flex-direction: column-reverse;
   }
 }
 @media (max-width: 576px) {
