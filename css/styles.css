@@ -10977,15 +10977,10 @@ section.resume-section .button.expanded {
 .hide-show {
   display: none;
 }
-.information-header {
-  background: url("../assets/img/02.png");
-  background-repeat: no-repeat;
-  background-size: 90% 100%;
-  text-align: -webkit-right;
-  height: 1104px;
-}
-.information-header-text {
-  width: 50%;
+
+.text-clip {
+  font-size: 2em;
+  text-align: left;
 }
 @media (max-width: 1200px) {
   p {
@@ -11000,9 +10995,6 @@ section.resume-section .button.expanded {
   .background-training,
   .background-content {
     height: 632px;
-  }
-  .information-header {
-    height: 900px;
   }
 }
 @media (max-width: 768px) {
@@ -11053,12 +11045,7 @@ section.resume-section .button.expanded {
     display: block;
   }
   .information-header {
-    height: 900px;
-    background: none;
-    height: auto;
-  }
-  .information-header-text {
-    width: 100%;
+    flex-direction: column-reverse
   }
 }
 @media (max-width: 576px) {
