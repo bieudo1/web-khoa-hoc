@@ -2,6 +2,7 @@ let d = 10;
 let h = 5;
 let m = 20;
 let s = 38;
+
 function start() {
   if (s === -1) {
     m -= 1;
@@ -24,3 +25,5 @@ setInterval(function () {
   s--;
   start();
 }, 1000);
+document.cookie = "username=John Doe";
+console.log(document.cookie);
