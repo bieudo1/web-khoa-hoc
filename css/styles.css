@@ -10605,10 +10605,10 @@ p.lead {
 section.resume-section {
   display: flex;
   align-items: center;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   padding-top: 2rem;
-  padding-bottom: 5rem;
+  padding-bottom: 3rem;
   max-width: 100%;
 }
 
@@ -10622,7 +10622,7 @@ section.resume-section .button {
   color: #fefefe !important;
 }
 section.resume-section .call-to-action {
-  margin-top: 20px;
+  margin: 20px 0;
 }
 section.resume-section .button.success {
   background-color: #00c042;
@@ -11047,9 +11047,9 @@ section.resume-section .button.expanded {
   background-size: 100% 100%;
 }
 .background-2 {
-background: url("../assets/img/background gradient.png");
-background-repeat: no-repeat;
-background-size: 100% 100%;
+  background: url("../assets/img/background gradient.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 .box-data {
   display: flex;
@@ -11094,9 +11094,8 @@ background-size: 100% 100%;
   margin: auto;
 }
 .between {
-  font-size: 3em;
+  font-size: 2.5em;
   margin: auto;
-  padding-left: 36px;
 }
 .below {
   font-size: 2.5em;
@@ -11168,6 +11167,16 @@ background-size: 100% 100%;
   left: -8px;
   display: flex;
   align-items: center;
+}
+.number-74 {
+  font-size: 8rem;
+}
+.number-74-text {
+  margin: 10px;
+}
+.box-1 {
+  text-align: center;
+  z-index: 1;
 }
 @media (max-width: 1200px) {
   p {
@@ -11246,7 +11255,6 @@ background-size: 100% 100%;
   .curriculum-img {
     height: auto;
   }
-
   .data {
     font-size: 1.25em;
   }
@@ -11279,7 +11287,7 @@ background-size: 100% 100%;
     font-size: 1.75rem;
   }
   .box-0 {
-    top: -80px;
+    top: -30px;
     right: 34px;
   }
   .box-3 {
@@ -11288,6 +11296,15 @@ background-size: 100% 100%;
   .text-bolder {
     font-size: 1.25rem;
   }
+  .number-74 {
+    font-size: 6rem;
+  }
+  .number-74-text {
+    font-size: 1.25rem;
+  }
+  .font-size-number {
+    font-size: 2em;
+  }
 }
 @media (max-width: 767px) {
   .font-size-number {
@@ -11295,6 +11312,9 @@ background-size: 100% 100%;
   }
 }
 @media (max-width: 576px) {
+  .flex-direction-CR {
+    flex-direction: column-reverse;
+  }
   .textbook-title {
     font-size: 1em;
   }
@@ -11342,7 +11362,7 @@ background-size: 100% 100%;
     padding: 6px 30px;
   }
   .text-1 {
-    font-size: 1rem;
+    font-size: 0.75rem;
   }
   .text-mobile {
     font-size: 0.75em;
@@ -11355,5 +11375,21 @@ background-size: 100% 100%;
   }
   .font-size-number {
     font-size: 2.5em;
+  }
+  .number-74 {
+    font-size: 2.5rem;
+  }
+  .number-74-text {
+    font-size: 0.75rem;
+  }
+  .img-3 {
+    height: 400px;
+  }
+  .box-1 {
+    position: relative;
+    right: 6px;
+  }
+  .box-2 {
+    left: 122px;
   }
 }
